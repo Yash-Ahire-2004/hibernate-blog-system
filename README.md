@@ -1,41 +1,25 @@
-# Hibernate Blog System
+# Hibernate Blog System  
+A simple, pure Hibernate-based Blog System with Users, Posts, and Comments — all managed through a menu‑driven console interface.
 
-A pure Hibernate + PostgreSQL blog system with full entity relationships, DAO layer, and menu-driven CLI.
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Hibernate](https://img.shields.io/badge/Hibernate-JPA-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-316192)
+![Maven](https://img.shields.io/badge/Maven-Build-red)
+![License](https://img.shields.io/badge/License-Free-success)
 
-## 📦 Technologies Used
+---
 
-- Java 17
-- Hibernate (JPA)
-- PostgreSQL
-- Maven
-- Eclipse IDE
-
-## 🧩 Features
-
-- Create, read, delete Users, Posts, and Comments
+## 🚀 Features
+- Create, read, delete **Users**, **Posts**, and **Comments**
 - Assign relationships:
-  - User → Post
-  - User → Comment
-  - Post → Comment
-- Prevent duplicate user creation
-- Menu-driven console interface
-- No Spring Boot — pure Hibernate setup
+  - User → Post  
+  - User → Comment  
+  - Post → Comment  
+- Prevent duplicate user creation  
+- Pure Hibernate (no Spring Boot)
+- PostgreSQL database integration  
+- Clean menu‑driven console UI  
 
-## 🗂️ Entity Relationships
+---
 
-- One User → Many Posts  
-- One User → Many Comments  
-- One Post → Many Comments  
-- Each Comment belongs to one User and one Post
-
-## 🧪 Example Scenario
-
-```text
-1. Create User → yash / yash@gmail.com / 12345
-2. Create Post → "My First Blog" / "This is my first post."
-3. Create Comment → "Nice post!"
-4. Assign User to Post → User ID: 1, Post ID: 1
-5. Assign User to Comment → User ID: 1, Comment ID: 1
-6. Assign Post to Comment → Post ID: 1, Comment ID: 1
-7. Read Post → shows title, content, and author
-8. Read Comment → shows content, author, and post
+## 📁 Project Structure

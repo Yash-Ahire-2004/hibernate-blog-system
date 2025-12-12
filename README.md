@@ -21,5 +21,3 @@ A simple, pure Hibernate-based Blog System with Users, Posts, and Comments — a
 - Clean menu‑driven console UI  
 
 ---
-
-## 📁 Project Structure
